@@ -27,7 +27,7 @@ console.log(testGreeting); // printing the output value of the function.
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
 
-var bango1 = 5;
+var bango1 = 6;
 var bango2 = 4;
 
 /*
@@ -145,8 +145,7 @@ console.log(daDiva);
 function checkDifference(x){
     return 'Last night I dreamt that I ate ' + x + ' Taco Bell soft tacos.'
 }
-var tacoDream = checkDifference(difference);
-console.log(tacoDream);
+console.log(checkDifference(difference));
 
 /*
  * #8
@@ -159,7 +158,10 @@ console.log(tacoDream);
  * Console.log your result.  
 */
 
-
+function checkProduct(){
+    return sum + ' x ' + product + ' = ' + sum * product;
+}
+console.log(checkProduct());
 
 /*
  * #9
