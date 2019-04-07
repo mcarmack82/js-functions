@@ -124,7 +124,11 @@ console.log('Quotient: ', quotient);
  * Console.log your result.
 */
 
-
+function checkSum(x){
+    return 'Mariah Carey has been married ' + x + ' times.';
+}
+var daDiva = checkSum(sum);
+console.log(daDiva);
 
 /*
  * #7
@@ -138,7 +142,11 @@ console.log('Quotient: ', quotient);
  * Console.log your results.
 */ 
 
-
+function checkDifference(x){
+    return 'Last night I dreamt that I ate ' + x + ' Taco Bell soft tacos.'
+}
+var tacoDream = checkDifference(difference);
+console.log(tacoDream);
 
 /*
  * #8
