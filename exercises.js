@@ -239,7 +239,12 @@ console.log(multiplyThenDivide(bango3, bango4, bango5));
  *  This function `returns` back a string which represents someone's full name. Invoke this function by passing in your first  and last name into the function. Store the return value into a variable named `myFullName` and console.log this variable to show your result.
 */
 
-
+function createFullName(firstName, lastName){
+    var firstName = 'Michelle';
+    var lastName = 'Carmack';
+    return firstName + ' ' + lastName;
+}
+console.log(createFullName());
 
 /*
  * #13 
@@ -255,6 +260,13 @@ console.log(multiplyThenDivide(bango3, bango4, bango5));
  * Console.log your result.
  */
 
+ function eatFood(firstName, lastName, food){
+    var firstName = 'Michelle';
+    var lastName = 'Carmack';
+    var food = 'toast'; 
+    return firstName + ' ' + lastName + ' ' + 'eats ' + food + ' everyday for breakfast.'
+ }
+ console.log(eatFood());
 
 
 /************** ENGAGE HYPERDRIVE **************/
@@ -270,6 +282,11 @@ console.log(multiplyThenDivide(bango3, bango4, bango5));
  * Console.log your result. 
 */
 
+function shoeSize(inches){
+    var inches = 8.5
+    return inches * 2.54;
+}
+console.log(shoeSize(8.5));
 
 
 /*
