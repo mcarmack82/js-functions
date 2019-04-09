@@ -199,7 +199,14 @@ console.log(checkQuotient());
  * Console.log your result.
 */ 
 
+var bango3 = 5
+var bango4 = 9
+var bango5 = 11
 
+function addThenSubtract(num1, num2, num3){
+    return(num1 + num2) - num3 
+}
+console.log(addThenSubtract(bango3, bango4, bango5));
 
 /*
  * #11
